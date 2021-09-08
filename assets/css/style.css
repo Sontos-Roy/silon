@@ -1,0 +1,126 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: Roboto-Light;
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: DancingScript-Bold;
+    src: url(../fonts/Dancing_Script/static/DancingScript-Bold.ttf);
+}
+
+
+body{
+    font-family: var(--Roboto-Regular);
+    font-weight: 400;
+}
+.upline{
+    height: 3px;
+    width: 80px;
+    background: gray;
+}
+
+:root{
+	/*Theme colors*/
+
+
+	/*gradient color*/
+
+	/*theme font family*/
+    --Roboto-Regular: Roboto-Regular;
+    --Roboto-Medium: Roboto-Medium;
+    --Roboto-Light: Roboto-Light;
+    --Roboto-Bold: Roboto-Bold;
+    --OpenSans-Bold: OpenSans-Bold;
+    --DancingScript-Bold: DancingScript-Bold;
+}
+
+/* header start  */
+/* topbar start  */
+.topbar{
+    padding-top: 5px;
+    background: #fef7f6;
+}
+.topbar-left{
+
+}
+.topbar-left p span:first-child{
+    padding-right: 10px;
+    border-right: 1px solid black;
+}
+.topbar-right{
+    text-align: end;
+    right: 0;
+}
+.c-nav{
+    text-align: right;
+    right: 0;
+}
+.c-nav li{
+    list-style: none;
+    float: left;
+    border-right: 1px solid black;
+    text-align: center;
+    padding: 0 10px;
+}
+.c-nav li:last-child{
+    border: none !important;
+}
+.c-nav li select{
+    background: transparent;
+    border: none;
+}
+/* topbar end  */
+.brand-logo{
+    margin: 0;
+    padding: 0;
+}
+.brand-logo > a{
+    font-size: 45px;
+    font-family: var(--OpenSans-Bold);
+}
+.custome-nav li a{
+    margin-left: 20px;
+    font-family: var(--Roboto-Bold);
+}
+.c-icon-menu{
+
+}
+.dpdown1{
+    width: 250px;
+    border: transparent;
+}
+.c-icon-menu .menu3{
+    margin-left: 20px;
+    border: none;
+    background: transparent;
+}
+
+/* footer section start  */
+.footer{
+    background: #f4eee7;
+}
+.f-menu h5{
+    font-family: var(--Roboto-Bold);
+    text-transform: uppercase;
+    font-size: 19px;
+}
+.f-menu ul li a{
+    font-family: var(--Roboto-Regular);
+    color: gray;
+}
+/* footer section end  */
